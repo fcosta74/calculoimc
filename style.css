@@ -1,0 +1,31 @@
+body{
+    font: normal 1em arial;
+    background-image: url(fundo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+div{
+    margin-top: 10px;
+}
+input{
+    padding: 15px;
+    border-radius: 5px;
+    box-sizing: 1px solid black;
+    
+}
+form{
+    width: 400px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid greenyellow;
+    border-radius: 10px;   
+}
+h1{
+    text-align: center;
+    color: white;
+}
+#saida{
+    cursor: pointer;
+}
