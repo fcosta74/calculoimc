@@ -21,10 +21,11 @@ form{
     padding: 10px;
     border: 1px solid greenyellow;
     border-radius: 10px;   
+    background-image: url(file.jpg)
 }
 h1{
     text-align: center;
-    color: white;
+    color: blanchedalmond;
 }
 #saida{
     cursor: pointer;
@@ -32,4 +33,5 @@ h1{
 .sig{
     text-align: center;
     font-size: 1.5em;
+    color: blanchedalmond;
 }
