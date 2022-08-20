@@ -3,6 +3,9 @@ body{
     background-image: url(fundo.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    display: block;
+    width: 100vw;
+    height: 100vh;
     color: white;
 }
 div{
@@ -16,12 +19,14 @@ input{
 }
 form{
     width: 270px;
-    height: 100%;
     margin: 0 auto;
     padding: 10px;
     border: 1px solid greenyellow;
     border-radius: 10px;   
-    background-image: url(file.jpg)
+    background-image: url(file.jpg);
+    
+
+    
 }
 h1{
     text-align: center;
