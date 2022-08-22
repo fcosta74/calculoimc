@@ -9,11 +9,9 @@ body{
     height: 100vh;
     color: white;
 }
-div{
-    margin-top: 10px;
-}
+
 input{
-    padding: 15px;
+    padding: 10px;
     border-radius: 5px;
     box-sizing: 1px solid black;
     
@@ -25,19 +23,27 @@ form{
     border: 1px solid greenyellow;
     border-radius: 10px;   
     background-image: url(file.jpg);
-    
-
-    
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 h1{
     text-align: center;
-    color: blanchedalmond;
+   
+}
+h2{
+    margin-top: 10px;
 }
 #saida{
     cursor: pointer;
+    width: 110px;
+    text-align: center;
+   
 }
 .sig{
     text-align: center;
-    font-size: 1.5em;
-    color: blanchedalmond;
+    font-size: 1.3em;
+}
+
+#peso{
+    margin-top: 30px;
 }

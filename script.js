@@ -17,13 +17,13 @@ function validar() {
     res.innerHTML = '<h2>Resultado: </h2>'
     res.innerHTML += `<h2>O seu Indice de Massa Corporal é <strong>${imc.toFixed(2)}.</strong></h2>` 
     if (imc < 18.5 ){
-        res.innerHTML += '<h2>Você está abaixo do peso 🤨🤨🤨!!!</h2>' 
+        res.innerHTML += '<h2>Você está abaixo do peso.🤨🤨🤨</h2>' 
     } else if (imc <= 24.9){
         res.innerHTML += '<h2>Você está com o peso ideal, parabéns 👏👏👏!!!</h2>'
     } else if (imc <= 29.9){
-        res.innerHTML += '<h2>Você está com sobrepeso 😰😰😰!!!</h2>'
+        res.innerHTML += '<h2>Você está com sobrepeso.😰😰😰!!!</h2>'
     } else if (imc <=  39.9){
-        res.innerHTML += '<h2>Você está com Obesidade 😔😔😔!!!</h2>'
+        res.innerHTML += '<h2>Você está com Obesidade.😔😔😔!!!</h2>'
     } else if (imc > 40.00){
         res.innerHTML += '<h2>Você está com Obesidade grave, se cuida😔😔😔!!!</h2>'
     }
@@ -32,4 +32,5 @@ function validar() {
 function limpar(){
     res.innerHTML = null
 }
+
 
